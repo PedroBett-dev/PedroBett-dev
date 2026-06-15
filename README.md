@@ -1,16 +1,17 @@
-## Hi there 👋
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&width=435&lines=Olá%2C+bem+vindo+ao+meu+GitHub!%F0%9F%91%8B)
 
-<!--
-**PedroBett-dev/PedroBett-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Olá! Meu nome é Pedro, que bom te ver aqui. 
+Aqui é onde transformo curiosidade em código. Estou no início da minha jornada na programação, mas cada projeto é um passo a mais, e não pretendo parar. Se você passou por aqui, fique à vontade para acompanhar minha jornada!
+  
+### Linguagem que estou aprendendo no momento
+<div style="display: inline_block"><br>
+  <img align="center" alt="Pedro-go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg">
+</div>
 
-Here are some ideas to get you started:
+<div align="center">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Vamos manter contato!
+ 
+<div> 
+  <a href="https://www.linkedin.com/in/pedro-henrique-camilo-bett-297666291/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
