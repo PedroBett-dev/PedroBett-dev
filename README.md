@@ -8,6 +8,12 @@ Aqui é onde transformo curiosidade em código. Estou no início da minha jornad
   <img align="center" alt="Pedro-go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg">
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake.svg">
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake.svg">
+</picture>
+
 <div align="center">
 
 ### Vamos manter contato!
