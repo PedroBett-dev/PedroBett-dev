@@ -2,6 +2,8 @@
 
 Olá! Meu nome é Pedro, que bom te ver aqui. 
 Aqui é onde transformo curiosidade em código. Estou no início da minha jornada na programação, mas cada projeto é um passo a mais, e não pretendo parar. Se você passou por aqui, fique à vontade para acompanhar minha jornada!
+
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/PedroBett-dev?cardType=github&theme=dark&fontFamily=Advent%20Pro&preferLogin=false)](https://git.io/awesome-stats-card)
   
 ### Linguagem que estou aprendendo no momento
 <div style="display: inline_block"><br>
