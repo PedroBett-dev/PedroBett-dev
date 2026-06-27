@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&width=435&lines=Olá%2C+bem+vindo+ao+meu+GitHub!%F0%9F%91%8B)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&width=435&lines=Olá%2C+bem+vindo+ao+meu+GitHub!%F0%9F%91%8B)
 
 Olá! Meu nome é Pedro, que bom te ver aqui. 
 Aqui é onde transformo curiosidade em código. Estou no início da minha jornada na programação, mas cada projeto é um passo a mais, e não pretendo parar. Se você passou por aqui, fique à vontade para acompanhar minha jornada!
