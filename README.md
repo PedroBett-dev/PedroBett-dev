@@ -3,11 +3,6 @@
 Olá! Meu nome é Pedro, que bom te ver aqui. 
 Aqui é onde transformo curiosidade em código. Estou no início da minha jornada na programação, mas cada projeto é um passo a mais, e não pretendo parar. Se você passou por aqui, fique à vontade para acompanhar minha jornada!
   
-### Linguagem que estou aprendendo no momento
-<div style="display: inline_block"><br>
-  <img align="center" alt="Pedro-go" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg">
-</div>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake.svg">
