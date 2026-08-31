@@ -2,16 +2,18 @@
 
 Olá! Meu nome é Pedro, que bom te ver aqui. 
 Aqui é onde transformo curiosidade em código. Estou no início da minha jornada na programação, mas cada projeto é um passo a mais, e não pretendo parar. Se você passou por aqui, fique à vontade para acompanhar minha jornada!
-  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroBett-dev/PedroBett-dev/output/snake.svg">
-</picture>
 
-<div align="center">
+---
+
+<div align="left">
+
+### Tecnologias
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Harbour](https://img.shields.io/badge/Harbour-000000?style=for-the-badge&logo=harbour&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-f1c232?style=for-the-badge&logo=python&logoColor=black)
 
 ### Vamos manter contato!
  
-<div> 
-  <a href="https://www.linkedin.com/in/pedro-henrique-camilo-bett-297666291/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedro-henrique-camilo-bett-297666291)
