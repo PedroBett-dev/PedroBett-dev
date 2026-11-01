@@ -11,7 +11,7 @@ BIRTHDAY = date(2007, 11, 20)
 
 INFO = [
     ("#", PROMPT),
-    ("OS", "macOS"),
+    ("OS", "macOS, Windows, Linux"),
     ("Uptime", "{uptime}"),
     ("Local", "Brasil"),
     ("IDE", "VS Code, GoLand"),
