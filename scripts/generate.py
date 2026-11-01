@@ -6,7 +6,7 @@ from xml.sax.saxutils import escape
 
 USER = "PedroBett-dev"
 PROMPT = "pedro@bett"
-BIRTHDAY = date(2007, 11, 20)
+BIRTHDAY = date(2007, 11, 26)
 
 
 INFO = [
@@ -15,6 +15,7 @@ INFO = [
     ("Uptime", "{uptime}"),
     ("Local", "Brasil"),
     ("IDE", "VS Code, GoLand"),
+    ("Kernel", "Desenvolvedor Backend"),
     None,
     ("Linguagens.Programação", "Go, C, Python, Harbour"),
     ("Linguagens.Idiomas", "Português, Inglês(Básico)"),
@@ -32,13 +33,16 @@ INFO = [
     ("Stars", "{stars}"),
     ("Commits", "{commits}"),
     ("Seguidores", "{followers}"),
+    ("Linguagens.Top", "{top_langs}"),
 ]
 
-WIDTH, HEIGHT = 985, 530
+IGNORED_LANGS = {"Swift"}
+
 ROW_CHARS = 57
-ASCII_ROWS = 25
+ASCII_ROWS = len(INFO)
 INFO_X = 400
 LINE_H = 20
+WIDTH, HEIGHT = 985, 30 + (ASCII_ROWS - 1) * LINE_H + 20
 
 THEMES = {
     "dark": dict(bg="#161b22", fg="#c9d1d9", key="#ffa657", value="#a5d6ff", dots="#616e7f"),
@@ -86,7 +90,12 @@ def fetch_stats():
             repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]) { totalCount }
             repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC) {
               totalCount
-              nodes { stargazerCount }
+              nodes {
+                stargazerCount
+                languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                  edges { size node { name } }
+                }
+              }
             }
           }
         }""",
@@ -113,6 +122,16 @@ def fetch_stats():
         )["user"]["contributionsCollection"]
         commits += data["totalCommitContributions"] + data["restrictedContributionsCount"]
 
+    lang_bytes = {}
+    for repo in user["repositories"]["nodes"]:
+        for edge in repo["languages"]["edges"]:
+            name = edge["node"]["name"]
+            if name not in IGNORED_LANGS:
+                lang_bytes[name] = lang_bytes.get(name, 0) + edge["size"]
+    total = sum(lang_bytes.values()) or 1
+    top = sorted(lang_bytes.items(), key=lambda kv: kv[1], reverse=True)[:3]
+    top_langs = ", ".join(f"{name} {round(size * 100 / total)}%" for name, size in top)
+
     return {
         "uptime": uptime(BIRTHDAY, now.date()),
         "repos": f"{user['repositories']['totalCount']:,}",
@@ -120,7 +139,12 @@ def fetch_stats():
         "stars": f"{sum(r['stargazerCount'] for r in user['repositories']['nodes']):,}",
         "commits": f"{commits:,}",
         "followers": f"{user['followers']['totalCount']:,}",
+        "top_langs": top_langs or "-",
     }
+
+
+def plural(n, one, many):
+    return f"{n} {one if n == 1 else many}"
 
 
 def uptime(start: date, today: date):
@@ -133,9 +157,6 @@ def uptime(start: date, today: date):
     if months < 0:
         years -= 1
         months += 12
-
-    def plural(n, one, many):
-        return f"{n} {one if n == 1 else many}"
 
     return ", ".join([plural(years, "ano", "anos"), plural(months, "mês", "meses"), plural(days, "dia", "dias")])
 
@@ -158,6 +179,7 @@ def info_lines(stats):
             out.append(f"{escape(title)} <tspan class=\"dots\">{rule}</tspan>")
             continue
         value = value.format(**stats)
+        key = key.format(**stats)
         parts = key.split(".")
         key_svg = '<tspan class="dots">.</tspan>'.join(
             f'<tspan class="key">{escape(p)}</tspan>' for p in parts

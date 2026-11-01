@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="985px" height="530px" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" width="985px" height="510px" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16px">
 <style>
 text, tspan { white-space: pre; }
 .key { fill: #953800; }
 .value { fill: #0a3069; }
 .dots { fill: #c2cfde; }
 </style>
-<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<rect width="985px" height="510px" fill="#f6f8fa" rx="15"/>
 <text fill="#24292f">
 <tspan x="15" y="30"></tspan>
 <tspan x="15" y="50"></tspan>
@@ -31,25 +31,27 @@ text, tspan { white-space: pre; }
 <text fill="#24292f">
 <tspan x="400" y="30">pedro@bett <tspan class="dots">——————————————————————————————————————————————</tspan></tspan>
 <tspan x="400" y="50"><tspan class="dots">. </tspan><tspan class="key">OS</tspan>:<tspan class="dots"> ............................. </tspan><tspan class="value">macOS, Windows, Linux</tspan></tspan>
-<tspan x="400" y="70"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> .................... </tspan><tspan class="value">18 anos, 11 meses, 12 dias</tspan></tspan>
+<tspan x="400" y="70"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ..................... </tspan><tspan class="value">18 anos, 11 meses, 6 dias</tspan></tspan>
 <tspan x="400" y="90"><tspan class="dots">. </tspan><tspan class="key">Local</tspan>:<tspan class="dots"> ......................................... </tspan><tspan class="value">Brasil</tspan></tspan>
 <tspan x="400" y="110"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dots"> .................................. </tspan><tspan class="value">VS Code, GoLand</tspan></tspan>
-<tspan x="400" y="130"><tspan class="dots">. </tspan></tspan>
-<tspan x="400" y="150"><tspan class="dots">. </tspan><tspan class="key">Linguagens</tspan><tspan class="dots">.</tspan><tspan class="key">Programação</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">Go, C, Python, Harbour</tspan></tspan>
-<tspan x="400" y="170"><tspan class="dots">. </tspan><tspan class="key">Linguagens</tspan><tspan class="dots">.</tspan><tspan class="key">Idiomas</tspan>:<tspan class="dots"> ......... </tspan><tspan class="value">Português, Inglês(Básico)</tspan></tspan>
-<tspan x="400" y="190"><tspan class="dots">. </tspan></tspan>
-<tspan x="400" y="210"><tspan class="dots">. </tspan><tspan class="key">Estudando</tspan>:<tspan class="dots"> .... </tspan><tspan class="value">Algoritmos, Arquitetura de Computadores</tspan></tspan>
-<tspan x="400" y="230"><tspan class="dots">. </tspan><tspan class="key">Construindo</tspan>:<tspan class="dots"> ............................... </tspan><tspan class="value">APIs em Go</tspan></tspan>
-<tspan x="400" y="250"><tspan class="dots">. </tspan></tspan>
-<tspan x="400" y="270">- Contato <tspan class="dots">———————————————————————————————————————————————</tspan></tspan>
-<tspan x="400" y="290"><tspan class="dots">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dots"> .................. </tspan><tspan class="value">pedro-henrique-camilo-bett</tspan></tspan>
-<tspan x="400" y="310"><tspan class="dots">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="dots"> ................................. </tspan><tspan class="value">PedroBett-dev</tspan></tspan>
-<tspan x="400" y="330"><tspan class="dots">. </tspan></tspan>
-<tspan x="400" y="350">- GitHub Stats <tspan class="dots">——————————————————————————————————————————</tspan></tspan>
-<tspan x="400" y="370"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="400" y="390"><tspan class="dots">. </tspan><tspan class="key">Contribuições</tspan>:<tspan class="dots"> ...................................... </tspan><tspan class="value">1</tspan></tspan>
-<tspan x="400" y="410"><tspan class="dots">. </tspan><tspan class="key">Stars</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">1</tspan></tspan>
-<tspan x="400" y="430"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> ........................................... </tspan><tspan class="value">54</tspan></tspan>
-<tspan x="400" y="450"><tspan class="dots">. </tspan><tspan class="key">Seguidores</tspan>:<tspan class="dots"> ........................................ </tspan><tspan class="value">10</tspan></tspan>
+<tspan x="400" y="130"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dots"> ......................... </tspan><tspan class="value">Desenvolvedor Backend</tspan></tspan>
+<tspan x="400" y="150"><tspan class="dots">. </tspan></tspan>
+<tspan x="400" y="170"><tspan class="dots">. </tspan><tspan class="key">Linguagens</tspan><tspan class="dots">.</tspan><tspan class="key">Programação</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">Go, C, Python, Harbour</tspan></tspan>
+<tspan x="400" y="190"><tspan class="dots">. </tspan><tspan class="key">Linguagens</tspan><tspan class="dots">.</tspan><tspan class="key">Idiomas</tspan>:<tspan class="dots"> ......... </tspan><tspan class="value">Português, Inglês(Básico)</tspan></tspan>
+<tspan x="400" y="210"><tspan class="dots">. </tspan></tspan>
+<tspan x="400" y="230"><tspan class="dots">. </tspan><tspan class="key">Estudando</tspan>:<tspan class="dots"> .... </tspan><tspan class="value">Algoritmos, Arquitetura de Computadores</tspan></tspan>
+<tspan x="400" y="250"><tspan class="dots">. </tspan><tspan class="key">Construindo</tspan>:<tspan class="dots"> ............................... </tspan><tspan class="value">APIs em Go</tspan></tspan>
+<tspan x="400" y="270"><tspan class="dots">. </tspan></tspan>
+<tspan x="400" y="290">- Contato <tspan class="dots">———————————————————————————————————————————————</tspan></tspan>
+<tspan x="400" y="310"><tspan class="dots">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dots"> .................. </tspan><tspan class="value">pedro-henrique-camilo-bett</tspan></tspan>
+<tspan x="400" y="330"><tspan class="dots">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="dots"> ................................. </tspan><tspan class="value">PedroBett-dev</tspan></tspan>
+<tspan x="400" y="350"><tspan class="dots">. </tspan></tspan>
+<tspan x="400" y="370">- GitHub Stats <tspan class="dots">——————————————————————————————————————————</tspan></tspan>
+<tspan x="400" y="390"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">5</tspan></tspan>
+<tspan x="400" y="410"><tspan class="dots">. </tspan><tspan class="key">Contribuições</tspan>:<tspan class="dots"> ...................................... </tspan><tspan class="value">2</tspan></tspan>
+<tspan x="400" y="430"><tspan class="dots">. </tspan><tspan class="key">Stars</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">1</tspan></tspan>
+<tspan x="400" y="450"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> ........................................... </tspan><tspan class="value">54</tspan></tspan>
+<tspan x="400" y="470"><tspan class="dots">. </tspan><tspan class="key">Seguidores</tspan>:<tspan class="dots"> ........................................ </tspan><tspan class="value">10</tspan></tspan>
+<tspan x="400" y="490"><tspan class="dots">. </tspan><tspan class="key">Linguagens</tspan><tspan class="dots">.</tspan><tspan class="key">Top</tspan>:<tspan class="dots"> ............. </tspan><tspan class="value">C 57%, Go 21%, Python 20%</tspan></tspan>
 </text>
 </svg>
