@@ -13,27 +13,27 @@ INFO = [
     ("#", PROMPT),
     ("OS", "macOS, Windows, Linux"),
     ("Uptime", "{uptime}"),
-    ("Local", "Brasil"),
+    ("Location", "Maringá - Paraná - Brazil"),
     ("IDE", "VS Code, GoLand"),
-    ("Kernel", "Desenvolvedor Backend"),
+    ("Kernel", "Backend Developer"),
     None,
-    ("Linguagens.Programação", "Go, C, Python, Harbour"),
-    ("Linguagens.Idiomas", "Português, Inglês(Básico)"),
+    ("Languages.Programming", "Go, C, Python, Harbour"),
+    ("Languages.Spoken", "Portuguese, English (Basic)"),
     None,
-    ("Estudando", "Algoritmos, Arquitetura de Computadores"),
-    ("Construindo", "APIs em Go"),
+    ("Studying", "Algorithms, Computer Architecture"),
+    ("Building", "Go APIs"),
     None,
-    ("#", "Contato"),
+    ("#", "Contact"),
     ("LinkedIn", "pedro-henrique-camilo-bett"),
     ("GitHub", USER),
     None,
     ("#", "GitHub Stats"),
     ("Repos", "{repos}"),
-    ("Contribuições", "{contributed}"),
+    ("Contributed", "{contributed}"),
     ("Stars", "{stars}"),
     ("Commits", "{commits}"),
-    ("Seguidores", "{followers}"),
-    ("Linguagens.Top", "{top_langs}"),
+    ("Followers", "{followers}"),
+    ("Languages.Top", "{top_langs}"),
 ]
 
 IGNORED_LANGS = {"Swift"}
@@ -54,10 +54,10 @@ ART = [
     '  | .----------------------------. |',
     '  | | $ go run main.go           | |',
     '  | | func main() {              | |',
-    '  | |     fmt.Println("Olá!")    | |',
+    '  | |     fmt.Println("Hello!")  | |',
     '  | | }                          | |',
     '  | |                            | |',
-    '  | | Olá!                       | |',
+    '  | | Hello!                     | |',
     '  | | $ _                        | |',
     "  | '----------------------------' |",
     "  '--------------------------------'",
@@ -158,7 +158,7 @@ def uptime(start: date, today: date):
         years -= 1
         months += 12
 
-    return ", ".join([plural(years, "ano", "anos"), plural(months, "mês", "meses"), plural(days, "dia", "dias")])
+    return ", ".join([plural(years, "year", "years"), plural(months, "month", "months"), plural(days, "day", "days")])
 
 
 def ascii_art():
@@ -228,7 +228,7 @@ def main():
         svg = render(theme, portrait, stats)
         with open(os.path.join(root, f"{theme}_mode.svg"), "w", encoding="utf-8") as f:
             f.write(svg)
-    print("SVGs gerados:", stats)
+    print("SVGs generated:", stats)
 
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
-name: atualizar card do README
+name: update README card
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 00:00 em Brasília (UTC-3)
+    - cron: "0 3 * * *"   # 00:00 Brasília time (UTC-3)
   workflow_dispatch:
   push:
     branches:
@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: gerar SVGs
+      - name: generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate.py
@@ -35,4 +35,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dark_mode.svg light_mode.svg
-          git diff --cached --quiet || (git commit -m "Atualiza card do README" && git push)
+          git diff --cached --quiet || (git commit -m "Update README card" && git push)
