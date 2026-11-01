@@ -48,7 +48,7 @@ text, tspan { white-space: pre; }
 <tspan x="400" y="350"><tspan class="dots">. </tspan></tspan>
 <tspan x="400" y="370">- GitHub Stats <tspan class="dots">——————————————————————————————————————————</tspan></tspan>
 <tspan x="400" y="390"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="400" y="410"><tspan class="dots">. </tspan><tspan class="key">Contributed</tspan>:<tspan class="dots"> ........................................ </tspan><tspan class="value">1</tspan></tspan>
+<tspan x="400" y="410"><tspan class="dots">. </tspan><tspan class="key">Contributed</tspan>:<tspan class="dots"> ........................................ </tspan><tspan class="value">2</tspan></tspan>
 <tspan x="400" y="430"><tspan class="dots">. </tspan><tspan class="key">Stars</tspan>:<tspan class="dots"> .............................................. </tspan><tspan class="value">1</tspan></tspan>
 <tspan x="400" y="450"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> ........................................... </tspan><tspan class="value">56</tspan></tspan>
 <tspan x="400" y="470"><tspan class="dots">. </tspan><tspan class="key">Followers</tspan>:<tspan class="dots"> ......................................... </tspan><tspan class="value">10</tspan></tspan>
